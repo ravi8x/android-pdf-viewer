@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidPdf" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="Theme.AndroidPdf" parent="Base.Theme.AndroidPdf" />
+</resources>

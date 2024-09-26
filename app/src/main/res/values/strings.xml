@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Android PDF</string>
+    <string name="error_preview_pdf_file">Error in downloading PDF!</string>
+    <string name="btn_pdf_1mb">PDF Sample - 1MB</string>
+    <string name="btn_pdf_27mb">PDF Sample - 27MB</string>
+</resources>
