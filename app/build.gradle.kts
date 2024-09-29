@@ -45,10 +45,14 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.android.pdf.viewer)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.fragment.ktx)
+
+    // PDF viewer
+    implementation(libs.android.pdf.viewer)
+
+    // Retrofit
     implementation(libs.okhttp.logging.interceptor)
     implementation(libs.retrofit.converter.gson)
     implementation(libs.retrofit)

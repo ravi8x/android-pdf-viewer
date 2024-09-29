@@ -1,4 +1,4 @@
-package info.androidhive.androidpdf.util
+package info.androidhive.androidpdf.remote
 
 import okhttp3.ResponseBody
 import retrofit2.Converter
