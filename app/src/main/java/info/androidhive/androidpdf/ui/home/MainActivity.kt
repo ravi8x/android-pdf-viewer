@@ -19,14 +19,14 @@ class MainActivity : AppCompatActivity() {
         binding.content.btnSample1.setOnClickListener {
             openPdf(
                 "Lorem ipsum ",
-                "https://file-examples.com/storage/fe58a1f07d66f447a9512f1/2017/10/file-example_PDF_1MB.pdf"
+                "https://firebasestorage.googleapis.com/v0/b/project-8525323942962534560.appspot.com/o/samples%2Fpdf%2Ffile-example_PDF_1MB.pdf?alt=media&token=ea88122f-0524-4022-b401-f8ec1035901f"
             )
         }
 
         binding.content.btnSample2.setOnClickListener {
             openPdf(
                 "Acrylic Laminates",
-                "https://advancelam.com/wp-content/uploads/2024/08/ACRYLIC-Pdf.pdf"
+                "https://firebasestorage.googleapis.com/v0/b/project-8525323942962534560.appspot.com/o/samples%2Fpdf%2FACRYLIC-Pdf.pdf?alt=media&token=84b69d38-10a3-41c4-8854-9f08363cc2ca"
             )
         }
     }
